@@ -1,0 +1,11 @@
+{
+ "page": "dist/index.html",
+ "dir": "/home/user/soundquoin",
+ "kind": "software",
+ "start": "2026-11-25T02:44:11.348Z",
+ "by": "start.mjs",
+ "url": null,
+ "root": "dist",
+ "category": "interview analysis",
+ "primary": "Book a demo"
+}

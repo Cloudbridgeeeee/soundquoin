@@ -1,0 +1,187 @@
+{
+  "name": "SoundQuoin",
+  "primary": "Book a demo",
+  "accent": "#dafa9c",
+  "ink": "#ffffff",
+  "bg": "#0f0f0f",
+  "surface": "#1a1a1a",
+  "fontLink": "<link href=\"https://fonts.googleapis.com/css2?family=Outfit:wght@400..700&family=DM+Mono:wght@400;500&display=swap\" rel=\"stylesheet\">",
+  "fontDisplay": "\"Outfit\", system-ui, sans-serif",
+  "fontText": "\"Outfit\", system-ui, sans-serif",
+  "client": "Mobile banking study, Lagos",
+  "note": "A fixed study of 20 interviews. Results here come from fixed data in your browser; no AI service is called.",
+  "tabs": {
+    "overview": "Study",
+    "records": "Interviews",
+    "queue": "Themes to review"
+  },
+  "overview": {
+    "title": "Mobile banking study",
+    "kpis": [
+      [
+        "Interviews",
+        "20"
+      ],
+      [
+        "Hours of audio",
+        "16"
+      ],
+      [
+        "Themes found",
+        "9"
+      ],
+      [
+        "Approved",
+        "5"
+      ]
+    ],
+    "chart": {
+      "title": "Sessions mentioning each theme",
+      "labels": [
+        "Fees",
+        "Failed",
+        "Login",
+        "Limits",
+        "USSD",
+        "Care",
+        "Cards",
+        "Loans"
+      ],
+      "values": [
+        14,
+        11,
+        8,
+        6,
+        5,
+        3,
+        4,
+        2
+      ],
+      "threshold": 5,
+      "thresholdLabel": "5 sessions",
+      "caption": "Themes above the line go to review first."
+    }
+  },
+  "records": {
+    "title": "Interviews",
+    "searchHint": "Participant or theme",
+    "statusCol": 3,
+    "columns": [
+      "Participant",
+      "Area",
+      "Main theme",
+      "Status",
+      "Length",
+      "Next step"
+    ],
+    "tones": {
+      "Review": "warn",
+      "Transcribed": "bad",
+      "Coded": "good"
+    },
+    "rows": [
+      [
+        "Participant 01",
+        "Yaba",
+        "Transfer fees",
+        "Review",
+        "48 min",
+        "Themes to review"
+      ],
+      [
+        "Participant 02",
+        "Ikeja",
+        "Fingerprint login",
+        "Review",
+        "41 min",
+        "Themes to review"
+      ],
+      [
+        "Participant 03",
+        "Surulere",
+        "USSD backup",
+        "Transcribed",
+        "55 min",
+        "Waiting for themes"
+      ],
+      [
+        "Participant 04",
+        "Ajah",
+        "Branch limits",
+        "Transcribed",
+        "39 min",
+        "Waiting for themes"
+      ],
+      [
+        "Participant 05",
+        "Lekki",
+        "Transfer fees",
+        "Coded",
+        "46 min",
+        "In report"
+      ],
+      [
+        "Participant 06",
+        "Ikorodu",
+        "Failed transfers",
+        "Review",
+        "52 min",
+        "Themes to review"
+      ],
+      [
+        "Participant 07",
+        "Apapa",
+        "Customer care",
+        "Coded",
+        "44 min",
+        "In report"
+      ],
+      [
+        "Participant 08",
+        "Oshodi",
+        "Transfer fees",
+        "Transcribed",
+        "50 min",
+        "Waiting for themes"
+      ],
+      [
+        "Participant 09",
+        "Gbagada",
+        "Fingerprint login",
+        "Coded",
+        "37 min",
+        "In report"
+      ]
+    ]
+  },
+  "queue": {
+    "title": "Themes waiting for a researcher",
+    "lead": "Each theme lists its sessions and quotes. Nothing reaches a report until a researcher approves it.",
+    "items": [
+      {
+        "id": "fees",
+        "title": "Transfer fees unclear, 14 of 20 sessions",
+        "detail": "41 quotes. Strongest among small business users.",
+        "reason": "Participants describe charges they cannot explain after a transfer."
+      },
+      {
+        "id": "failed",
+        "title": "Failed transfers at month end, 11 of 20",
+        "detail": "28 quotes. Often followed by a USSD attempt.",
+        "reason": "Mentions cluster around salary days and rent payments."
+      },
+      {
+        "id": "login",
+        "title": "Fingerprint login, 8 of 20 sessions",
+        "detail": "17 quotes. Mixed: some like it, some distrust it.",
+        "reason": "Could merge with a wider app security theme."
+      },
+      {
+        "id": "limits",
+        "title": "Branch visits to raise limits, 6 of 20",
+        "detail": "12 quotes. Mostly traders in Ajah and Oshodi.",
+        "reason": "Participants travel to a branch to raise daily transfer limits."
+      }
+    ]
+  }
+}
